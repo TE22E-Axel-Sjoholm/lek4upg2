@@ -1,22 +1,24 @@
 .logo{
     height: 75px;
     margin: auto;
+    margin-top:5px;
     border: 1px black solid;
 }
 body{
     display: grid;
     text-align: center;
-    grid-template-columns: 1fr 5fr;
+        grid-template-columns: 1fr 5fr;
 }
 header{
     background-color: black;
     color: white;
     margin-bottom: 10px;
 }
-aside{
+.drake{
     background-image: url("img/dragon_side.png");
     height: 100vh;
     border: 1px black solid;
+    grid-row: 2/5;
 }
 nav a{
     margin-right: 50px;
@@ -27,4 +29,18 @@ nav{
     height: 100px;
     background-color: black;
     margin-top: 5px;
+    margin-bottom: 10px;
+}
+main{
+    grid-column: 2/3;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.borderjagorkarinte{
+    border: 1px black solid;
 }
