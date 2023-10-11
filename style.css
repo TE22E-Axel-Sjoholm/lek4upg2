@@ -1,0 +1,18 @@
+.logo{
+    height: 75px;
+    margin: auto;
+}
+body{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 5fr;
+}
+header{
+    background-color: black;
+    color: white;
+}
+aside{
+    background-image: url("img/dragon_side.png");
+    height: 100vh;
+    border: 1px black solid;
+}
