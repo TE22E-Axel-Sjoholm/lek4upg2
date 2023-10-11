@@ -1,6 +1,7 @@
 .logo{
     height: 75px;
     margin: auto;
+    border: 1px black solid;
 }
 body{
     display: grid;
@@ -10,9 +11,20 @@ body{
 header{
     background-color: black;
     color: white;
+    margin-bottom: 10px;
 }
 aside{
     background-image: url("img/dragon_side.png");
     height: 100vh;
     border: 1px black solid;
+}
+nav a{
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+}
+nav{
+    height: 100px;
+    background-color: black;
+    margin-top: 5px;
 }
