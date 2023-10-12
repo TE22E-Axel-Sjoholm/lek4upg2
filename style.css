@@ -16,7 +16,6 @@ header{
 }
 .drake{
     background-image: url("img/dragon_side.png");
-    height: 100vh;
     border: 1px black solid;
     grid-row: 2/5;
 }
@@ -40,7 +39,15 @@ main{
 main img{
     margin-top: 5px;
     margin-bottom: 5px;
+    height: 150px;
 }
 .borderjagorkarinte{
     border: 1px black solid;
+}
+footer{
+    color: white;
+    background-color: black;
+    margin-top: 5px;
+    height: 100px;
+    padding-top: 10px;
 }
